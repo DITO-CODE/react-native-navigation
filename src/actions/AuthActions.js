@@ -20,7 +20,6 @@ export const passwordChanged = (text) => {
 
 
 export const loginUSer = ({email, password}) =>{
-    console.log(email);
     return (dispatch) =>{
 
         dispatch({type: LOGIN_USER})
